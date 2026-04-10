@@ -11,7 +11,7 @@ The system also includes a real-time REST API built with FastAPI and ngrok, enab
 
 ## Dataset
 - **Source**: [Sentiment Analysis for Financial News](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news) (Kaggle)
-- **Size**: ~4,700 samples
+- **Size**: 4,837 samples
 - **Labels**: positive, neutral, negative
 - **Split**: Train 70% / Validation 20% / Test 10%
 
