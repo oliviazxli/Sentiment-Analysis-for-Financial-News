@@ -38,9 +38,10 @@ The system also includes a real-time REST API built with FastAPI and ngrok, enab
 ---
 
 ## Project Structure
-├── Sentiment-Analysis-for-Financial-News.ipynb        # Main Colab notebook (all code)
-├── README.md
-
+```
+Sentiment-Analysis-for-Financial-News.ipynb        # Main Colab notebook (all code)
+README.md             # Project documentation
+```
 
 ---
 
