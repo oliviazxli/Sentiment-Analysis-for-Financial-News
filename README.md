@@ -38,3 +38,47 @@ The system also includes a real-time REST API built with FastAPI and ngrok, enab
 ---
 
 ## Project Structure
+├── Sentiment-Analysis-for-Financial-News.ipynb        # Main Colab notebook (all code)
+├── README.md
+
+
+---
+
+## How to Run
+1. Open `Sentiment-Analysis-for-Financial-News.ipynb` in Google Colab
+2. Upload `all-data.csv` to Colab runtime
+3. Run all cells in order
+4. API will be accessible via ngrok public URL
+
+---
+
+## API Endpoints
+| Endpoint | Description |
+|---|---|
+| `GET /predict?text=...` | Predict sentiment of a single text |
+| `GET /latest_news_sentiment` | Fetch and predict latest 5 financial news |
+
+---
+
+## Results Summary
+| Model | Test Accuracy |
+|---|---|
+| FinBERT-BiLSTM-Attention (Focal Loss) | ~83% |
+| FinBERT-BiLSTM-Attention (CE Loss) | ~86% |
+
+---
+
+## Group Members
+| Name | Student ID | Contribution |
+|---|---|---|
+| LI Zixin | 5599367 | Model Design and Training, Report, PPT |
+| GE Chang | 5565990 | Visualization, PPT |
+| LU Jiayun | 5513557 | Data Preprocessing, Report,PPT |
+| MO Yiwen | 5571418 | API, Report，PPT |
+
+---
+
+## References
+1. Devlin et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers
+2. Araci (2019). FinBERT: Financial Sentiment Analysis with Pre-trained Language Models
+3. Yang et al. (2020). FinBERT: A Pre-trained Strategy for Financial NLP
